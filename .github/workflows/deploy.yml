@@ -10,3 +10,8 @@ jobs:
       #- uses: actions/checkout@v4
       - name: Print variableSecreta
         run: echo "${{ secrets.TOKEN_SECRECT }}"
+
+      - name: setup
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
