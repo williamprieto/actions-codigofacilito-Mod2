@@ -9,4 +9,4 @@ jobs:
     steps:
       #- uses: actions/checkout@v4
       - name: Print variableSecreta
-        run: echo "{{ secrets.TOKEN_SECRECT }}"
+        run: echo "${{ secrets.TOKEN_SECRECT }}"
