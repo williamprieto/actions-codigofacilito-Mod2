@@ -1,0 +1,12 @@
+name: "Deploy"
+#trigger
+on: push
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      #- uses: actions/checkout@v4
+      - name: Print variable
+        run: echo "{{ secrets.TOKEN_SECRECT }}"
