@@ -64,6 +64,6 @@ jobs:
       - name: Deploy echo
         run: echo "Deploy....."
 
-      - name: Deploy
-        id: deployment-pages
-        uses: actions/deploy-pages@v4
+      # - name: Deploy
+      #   id: deployment-pages
+      #   uses: actions/deploy-pages@v4
